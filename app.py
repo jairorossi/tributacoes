@@ -48,8 +48,8 @@ st.title("📑 Consulta de Tributações por UF")
 # Seleção de Empresa
 empresa = st.sidebar.selectbox("Selecione a Empresa", ["GOLDEN", "NUCLEO"])
 arquivo_map = {
-    "GOLDEN": "TRIBUTAÇÕES_GOLDEN.txt",
-    "NUCLEO": "TRIBUTAÇÕES_NUCLEO.txt"
+    "GOLDEN": "TRIBUTACOES_GOLDEN.txt",
+    "NUCLEO": "TRIBUTACOES_NUCLEO.txt"
 }
 
 try:
